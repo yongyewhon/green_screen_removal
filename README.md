@@ -8,7 +8,16 @@ Remove green screen on images and replace with another background with OpenCV/Py
 5. Apply the mask and then use bitwise_and
 6. Check for matrix value 0 and replace it by the background image
 7. Save final image
-  
+
+Green screen images:
+
+![1](https://github.com/yongyewhon/green_screen_removal/assets/151745867/ef74485a-3b29-4a32-b39e-2b8dbef37a48)
+![3](https://github.com/yongyewhon/green_screen_removal/assets/151745867/dd5fbf6a-91ea-42d6-be57-19f05eff6e5b)
+![9](https://github.com/yongyewhon/green_screen_removal/assets/151745867/860be7ec-d52a-4a6b-a9ed-7735ae8f7a87)
+![10](https://github.com/yongyewhon/green_screen_removal/assets/151745867/f33bf668-9728-4822-bde7-454954c0a9c4)
+![11](https://github.com/yongyewhon/green_screen_removal/assets/151745867/6d616c78-17d7-476a-9b51-0ed22c2445e0)
+
+
 Final result:
 
 ![Save_1](https://github.com/yongyewhon/green_screen_removal/assets/151745867/47c0e8a6-1834-41eb-9bfa-b711a411ea2e)
