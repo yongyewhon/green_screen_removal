@@ -16,6 +16,3 @@ Final result:
 ![Save_9](https://github.com/yongyewhon/green_screen_removal/assets/151745867/e192cb12-7719-4839-8882-167b783e7c9d)
 ![Save_10](https://github.com/yongyewhon/green_screen_removal/assets/151745867/017504f0-90f0-449d-84e6-acf6e603e0f2)
 ![Save_11](https://github.com/yongyewhon/green_screen_removal/assets/151745867/ae2da617-ed2c-4757-8be6-f3a5f34abf83)
-
-
-
