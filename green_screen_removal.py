@@ -14,9 +14,8 @@ bg_height, bg_width, _ = background_image.shape
 for path_img in os.listdir(directory_path):
     if path_img.endswith(".jpg"):
         input_image = cv2.imread(os.path.join(directory_path, path_img))
-        image = cv2.resize(input_image, (bg_width, bg_height))
-        print(bg_height, bg_width)
-        img = image.copy()
+        img = cv2.resize(input_image, (bg_width, bg_height))
+        
         lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
         a_channel = lab[:,:,1]
         thresh = cv2.threshold(a_channel, 127, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)[1]
